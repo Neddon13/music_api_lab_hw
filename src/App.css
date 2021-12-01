@@ -1,38 +1,43 @@
-.App {
+h1 {
+  margin: 1rem auto;
+  color: aqua;
+  border: 8px groove pink;
+  max-width: fit-content;
+  padding: 0.5rem 2rem;
+}
+
+table {
+  margin:auto;
+}
+
+th {
+  background-color: green;
+  color: white;
+  padding: 0 0.8rem;
+}
+
+tr {
+  height: 2rem;
+}
+
+tr:hover {
+  background-color: blue !important;
+  color: white !important;
+}
+
+tr:nth-child(even) {
+  background-color: pink;
+}
+
+tr:nth-child(odd) {
+  background-color: yellow;
+}
+
+.chart-position {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.track-name, .artist-name {
+  padding: 0 0.8rem;
+  text-align: left;
 }
